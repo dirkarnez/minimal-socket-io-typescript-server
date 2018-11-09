@@ -36,8 +36,8 @@ module.exports = {
       filename: 'index.js',
       publicPath: '/'
    },
-   target: 'node',
+   target: 'node', // socket.io runs on Node runtime
    externals: {
-      uws: "uws"
+      uws: "uws"  // deprecated dependency used in socket.io 
    }
 };
